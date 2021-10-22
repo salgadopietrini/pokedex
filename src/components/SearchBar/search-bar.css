@@ -1,0 +1,65 @@
+.sb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8vh;
+  font-family: "Rubik", sans-serif;
+}
+
+.search-bar {
+  font-family: "Rubik", sans-serif;
+  height: 60px;
+  width: 500px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.submit-button {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  height: 60px;
+  width: 150px;
+}
+
+.submit-button2 {
+  margin-top: 60px;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  height: 60px;
+  width: 600px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  font-family: "Rubik", sans-serif;
+}
+
+@media screen and (min-width: 720px) {
+  button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .search-bar {
+    width: 90vw;
+  }
+
+  .submit-button2 {
+    height: 100px;
+    width: 95vw;
+  }
+  button:active,
+  .submit-button2:active,
+  .submit-button:active {
+    background-color: black;
+    color: white;
+  }
+}

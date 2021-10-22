@@ -1,0 +1,50 @@
+.types-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+.ti-pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 50vw;
+  padding: 10px;
+}
+
+.ti-buttons {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
+  .ti-pokemons {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100vw;
+    padding: 10px;
+  }
+
+  .ti-buttons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 90vw;
+    height: 300px;
+  }
+  .ti-buttons button {
+    width: 100%;
+    height: 100%;
+  }
+}

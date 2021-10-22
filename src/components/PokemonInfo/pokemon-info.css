@@ -1,0 +1,10 @@
+.pokemon-info {
+  background-color: grey;
+  color: white;
+  padding: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 50px;
+  border-radius: 50px;
+  font-family: "Rubik", sans-serif;
+}
