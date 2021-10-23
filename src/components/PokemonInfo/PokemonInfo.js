@@ -28,7 +28,7 @@ export default function PokemonInfo(props) {
         },
         [props.pokemonName]
       );
-  });
+  }, []);
 
   return (
     <div className="pokemon-info">
@@ -45,7 +45,7 @@ export default function PokemonInfo(props) {
           <div>HP: {pokemonInfo.hp}</div>
           <div>Attack: {pokemonInfo.attack}</div>
           <div>Defense: {pokemonInfo.defense}</div>
-          <div>Speed:{pokemonInfo.speed}</div>
+          <div>Speed: {pokemonInfo.speed}</div>
           <div>Type: {pokemonInfo.type}</div>
         </>
       ) : (

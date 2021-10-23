@@ -23,7 +23,7 @@ export default function PokemonCard(props) {
         }),
       [props.name]
     );
-  });
+  }, []);
 
   return (
     <Link

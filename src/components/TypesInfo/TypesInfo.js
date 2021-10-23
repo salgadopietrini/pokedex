@@ -36,7 +36,7 @@ export default function TypesInfo() {
         pokemons: response.data.pokemon,
       })
     );
-  });
+  }, [selector]);
 
   const handleSelector = (event) => {
     setSelector(event.target.value);
